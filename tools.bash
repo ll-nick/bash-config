@@ -5,6 +5,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Thefuck
 eval $(thefuck --alias)
 
+#z
+source ~/.config/z/z.sh
+
 # fzf
 source /usr/share/doc/fzf/examples/key-bindings.bash
 source /usr/share/doc/fzf/examples/completion.bash
