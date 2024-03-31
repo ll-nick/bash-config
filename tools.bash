@@ -5,8 +5,7 @@ eval $(thefuck --alias)
 source ~/.config/z/z.sh
 
 # fzf
-source /usr/share/doc/fzf/examples/key-bindings.bash
-source /usr/share/doc/fzf/examples/completion.bash
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash
 
 if [ "$ENABLE_MRT_CONFIG" = true ]; then
   function mrtf {
