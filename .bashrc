@@ -6,10 +6,10 @@ case $- in
       *) return;;
 esac
 
-ENABLE_MRT_CONFIG=true
-
+# Source all non-hidden files in ~/.config/bash
 for config_file in ~/.config/bash/*; do
   if [[ -f "$config_file" && "$(basename "$config_file")" != ".*" ]]; then
     source "$config_file"
   fi
 done
+
