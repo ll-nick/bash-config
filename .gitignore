@@ -1,0 +1,11 @@
+*
+
+!.gitignore
+!alert.bash
+!alias.bash
+!functions.bash
+!gcc.bash
+!less.bash
+!ls.bash
+!shell_config.bash
+!tab_completion.bash
