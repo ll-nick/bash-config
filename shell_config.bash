@@ -16,3 +16,7 @@ shopt -s checkwinsize
 # If no command is given, assume cd should be used
 # E.g. typing '..' will result in 'cd ..'
 shopt -s autocd
+
+# Enable vim key bindings
+set -o vi
+
