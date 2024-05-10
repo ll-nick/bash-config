@@ -2,7 +2,7 @@
 
 !.bashrc
 !.gitignore
-!.profile
+!.bash_profile
 !alert.bash
 !alias.bash
 !functions.bash
