@@ -29,3 +29,10 @@ git-https() {
     echo "Changed remote $remote to $new_url"
 }
 
+function fit-svg-to-content() {
+    for file in "$@"; do
+        inkscape --export-area-drawing --export-plain-svg="$file" "$file" > /dev/null 2>&1
+        echo "Fit $file to content"
+    done
+}
+
