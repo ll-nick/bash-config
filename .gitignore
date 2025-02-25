@@ -1,6 +1,7 @@
 *
 
 !.bashrc
+!.editorconfig
 !.gitignore
 !.bash_profile
 !alert.bash
