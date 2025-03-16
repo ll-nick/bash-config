@@ -4,7 +4,6 @@
 !.editorconfig
 !.gitignore
 !.bash_profile
-!.update_reminder.bash
 !alert.bash
 !alias.bash
 !functions.bash
@@ -13,4 +12,3 @@
 !ls.bash
 !shell_config.bash
 !tab_completion.bash
-!update.bash
