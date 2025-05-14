@@ -4,11 +4,11 @@
 !.editorconfig
 !.gitignore
 !.bash_profile
+!0_shell_config.bash
 !alert.bash
 !alias.bash
 !functions.bash
 !gcc.bash
 !less.bash
 !ls.bash
-!shell_config.bash
 !tab_completion.bash
