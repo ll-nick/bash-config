@@ -4,7 +4,7 @@
 !.editorconfig
 !.gitignore
 !.bash_profile
-!_shell_config.bash
+!0_shell_config.bash
 !alert.bash
 !alias.bash
 !functions.bash
